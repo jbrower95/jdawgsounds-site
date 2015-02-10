@@ -24,6 +24,11 @@ img {
 	padding-bottom: 10px;
 }
 
+.albumCover {
+	width: 100px;
+	height: 100px;
+}
+
 img:nth-of-type(0) {
 	padding-top: 20px;
 }
