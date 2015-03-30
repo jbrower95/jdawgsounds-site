@@ -5,7 +5,7 @@
 <html>
 
 <head profile="http://www.w3.org/2005/10/profile">
-	<title>J-Dawg Sounds - You can call it hell cuz we the home of fire</title>
+	<title>J-Dawg Sounds</title>
 	<link rel="icon" 
       type="image/png" 
       href="favicon.png">
@@ -17,16 +17,14 @@
 <body>
 	<div id="page1">
 		<a href="http://soundcloud.com/j-dawg-soundz"><img src="logo.png"></img></a>
-		<h1 class="page1header">
-			J-Dawg Sounds
-		</h1>
-		<h2 class="page1desc">
-			A semi-acceptable recording company run by three guys with some shit
-		</h2>
+		
 
-		<h3>EP Coming Out Soon</h3>
-		<a href="https://soundcloud.com/justin-brower/sets/originals"><img class="albumCover" src="./cover.png"></img></a>
+		<ul style="display: inline block; list-style-type: none;">
+			<a href="https://soundcloud.com/justin-brower/sets/originals"><img class="albumCover" src="./cover.png"></img></a>
+			<a href="https://thisisodyssey.bandcamp.com/nothingmattress" class="disabled"><img class="albumCover" src="./odyssey_cover.png"></img></a>
+			<a href="https://soundcloud.com/justin-brower/sets/northofhome"><img class="albumCover" src="./northofhome_cover.png"></img></a>
 
+		</ul>
 		<ul id="project_list">
 			<li class="project">
 				<button id="contribution_button">Contribution</button>
@@ -38,9 +36,13 @@
 				<button id="tap_button">TeeAp</button>
 			</li>	
 			<li class="project">
-				<button id="spenserlee_button">Spenser Lee</button>
+				<button id="odyssey_button">Odyssey</button>
+			</li>
+			<li class="project">
+				<a href="https://www.facebook.com/whitehorizonband?fref=ts"><button id="odyssey_button">White Horizon</button></a>
 			</li>
 		</ul>
+		<p>Artists</p>
 
 		<iframe id="contribution" class="artist" width="70%" height="15%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/106963710&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 		<iframe id="northofhome" class="artist" width="70%" height="15%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/185384644&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
@@ -57,60 +59,32 @@
 
 
 	<div id="page2">
-		<h1 class="page2header">
-			We want to help you drop your mixtape.
-		</h1>
-		<h2 class="page2desc">
-			We have the preamps, mics, and equipment. 
-			All you need to bring is your fire.
-		</h2>
 
-		<table id="options_table">
-			<tr style="margin-top:20px;">
-				<td style="text-align:center;"><h2>Live Performances</h2></td>
-				<td style="text-align:center;"><h2>Record your song</h2></td>
-				<td style="text-align:center;"><h2>Track the whole EP</h2></td>
-			</tr>
+		<div id="content" style="position: absolute;">
+			<div style='padding: 30px;'>
+					<a class="twitter-timeline" href="https://twitter.com/jdawgsounds" data-widget-id="582265412856848385">Tweets by @jdawgsounds</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+			<img src="http://www.clker.com/cliparts/C/C/t/u/L/0/arrow-down-gray-hi.png" onclick="scrollDown()" class="next_arrow"></img>
 
-			<tr style="margin-top: 10px;">
+		</div>
+		<h2 class="whitetext">Upcoming Releases</h2>
 
-					<td><iframe width="560" height="315" src="http://www.youtube.com/embed/_POfcebxqCw" frameborder="0" allowfullscreen></iframe></td>
-					<td><h1 class="price">Contact us for a quote</h1></td>
-					<td><h1 class="price">Contact us for a quote</h1></td>
-			</tr>
-
-
+		<table>
 			<tr>
 				<td>
-					<ul class="description"><li>Full 1080p Recordings of your session</li>
-						<li>Beautifully cut and mastered audio track</li>
-						<li>Get your video promoted on our youtube channel</li>
-						<li>Contact us for a quote</li></ul>
+					<img src="odyssey_logo.png"></img>
 				</td>
-				
-
 				<td>
-					<ul class="description">
-						<li>Use our collection of guitars, microphones, or your own gear.</li>
-						<li>Join us for mixing and mastering</li>
-						<li>Have your song promoted on our soundcloud</li>
-					</ul>
+					<p style="color: white;">
+						Odyssey is the solo project of frontman Lucas Truisi. Featuring five acoustic songs, the album
+						tells the story of Truisi's past few years.
+					</p>
 				</td>
-				
 
-				<td>
-					<ul class="description">
-						<li>Work with us to plan out the direction of your EP</li>
-						<li>Let us carefully craft your sonic experience, song by song.</li>
-						<li>Spend some quality time with our audio techs</li>
-					</ul>
-				</td>
 			</tr>
 		</table>
-		<h2 class="whitetext">Sound interesting?</h2>
-		<img src="http://www.clker.com/cliparts/C/C/t/u/L/0/arrow-down-gray-hi.png" onclick="scrollDown()" class="next_arrow_2"></img>
-
-
+		
 
 
 	</div>
@@ -120,13 +94,10 @@
 
 	<div id="page3">
 		<h1 class="page3header">
-			We have the experience, the skills, and honestly we're just bored.
+			Interested in our production?
 		</h1>
-		<h2 class="page3desc">
-			Slide into the studio when you've got the time. We've got the chops on the EQ and we're ready for you.
-		</h2>
 
-		<h3 class="page3footer">Does this look interesting? <a href="mailto:jbrower95@gmail.com?subject=J%20Dawg%20Sounds%20recording%20services">Send us an email</a> to get the process started.</h3>
+		<h3 class="page3footer"><a href="mailto:jbrower95@gmail.com?subject=J%20Dawg%20Sounds%20recording%20services">Send us an email and a link to your soundcloud</a> to get the process started.</h3>
 		
 		<div id="links">
 			<a href="http://soundcloud.com/j-dawg-soundz"><img src="http://uxrepo.com/static/icon-sets/mfg-labs/svg/soundcloud-circled.svg" class="soundcloud_image"></img></a>

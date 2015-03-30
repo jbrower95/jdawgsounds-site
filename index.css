@@ -15,7 +15,7 @@ body, html {
 
 h1 {
 	font-family: Arvo;
-	padding-top: 10%;
+	padding-top: 5%;
 	color: black;
 }
 
@@ -44,6 +44,10 @@ h2 {
 	font-style: normal;
 	font-size: 14pt;
 	color: black;
+}
+
+a.disabled {
+	pointer-events: none;
 }
 
 h3 {
@@ -138,17 +142,9 @@ h2:nth-child(2) {
 	float:bottom;
 	width: 50px;
 	height: 20px;
-	bottom: 0;
-}
-
-.next_arrow_2 {
-
-	float:bottom;
-	width: 50px;
-	height: 20px;
-	padding-top:auto;
-	bottom: 0;
-
+	bottom: 10px;
+	position: absolute;
+	z-index: 10;
 }
 
 
@@ -164,18 +160,15 @@ h2:nth-child(2) {
 	text-align: center;
 }
 #page2 {
-	height: 100%;
+	height: 70%;
 	text-align: center;
 	background-image: url("./wonderyears.png");
 	background-size: 100%;
 	/*background-color: rgb(241, 150, 28);*/
 }
-#page1 {
-	height: 100%;
-	text-align: center;
-}
+
 #page3 {
-	height: 40%;
+	height: 30%;
 	text-align: center;
 	background-color: white;
 	/*background-color: rgb(241, 150, 28);*/
