@@ -51,7 +51,7 @@ document.onload = function(){
 }
 
 //A function for scrolling down using JQuery.
-function scrollDown() {
+function scrollDown(s) {
 		var height = window.innerHeight ||
             		html.clientHeight  ||
              		body.clientHeight  ||
@@ -60,4 +60,6 @@ function scrollDown() {
     		scrollLeft: '+=' + 0,
     		scrollTop: '+=' + height
   		});
+  		console.log("sup");
+  		s.style.display = "none";
 }
