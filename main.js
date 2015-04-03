@@ -1,3 +1,8 @@
+$(function() {
+		// and kick off
+        $('#coverflow').coverflow();
+    });
+
 //Get references to the text based buttons we're using
 var tap_button = document.getElementById("tap_button");
 var northofhome_button = document.getElementById("northofhome_button");
